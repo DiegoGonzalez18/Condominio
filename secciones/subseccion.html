@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>section uno</title>
+</head>
+
+<body>
+
+<div class="container-fluid">
+
+<div class="tab-content" id="contenedor">
+ <!-- *****-->
+ <nav id="menu_secun_1" class="nav">
+  <a class="nav-link active" href="#" id="holi">Registrar persona</a>
+  <a class="nav-link" href="#" id="aca" data-info="listar">Listar personas</a>
+  <a class="nav-link" href="#" id="actualizar">Editar persona</a>
+</nav>
+ <!-- ********-->
+
+<div class="contenedor_1 container-fluid">
+ 
+
+</div>
+     
+
+
+ </div>
+
+</div>
+  
+   <script type="text/javascript">
+
+  $("#holi").click(function(event){
+   
+     
+    $(".contenedor_1").load("secciones/registrarPersona.html");
+  });
+    $("#aca").click(function(event){
+   
+     
+    $(".contenedor_1").load("secciones/listar.html");
+  });
+  $("#actualizar").click(function(event){
+   
+     
+    $(".contenedor_1").load("secciones/actualizar.html");
+  });
+</script>
+   
+    </body>
+</html>
